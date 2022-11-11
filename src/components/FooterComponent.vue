@@ -1,6 +1,10 @@
 <template>
     <footer>
         Sono Footer
+        <div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
     </footer>
 </template>
 
