@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import FooterLinks from './FooterLinks.vue';
+import FooterLinks from './footerSections/FooterLinks.vue';
 
 export default {
     components: {

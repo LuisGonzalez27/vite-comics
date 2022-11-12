@@ -25,7 +25,7 @@
                 </li>
             </ul>
             <div>
-                <img src="../assets/img/dc-logo-bg.png" alt="">
+                <img src="../../assets/img/dc-logo-bg.png" alt="">
             </div>
         </div>
     </div>
@@ -165,11 +165,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@use '../assets/styles/partials/mixins' as*;
-@use '../assets/styles/partials/variables' as*;
+@use '../../assets/styles/partials/mixins' as*;
+@use '../../assets/styles/partials/variables' as*;
 
 .wrapper {
-    background-image: url("../assets/img/footer-bg.jpg");
+    background-image: url("../../assets/img/footer-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
