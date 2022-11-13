@@ -1,24 +1,25 @@
 <template>
   <HeaderComponent />
   <main>
+    <JumbotronComponent />
     <MainComponent />
-    <ContentComponent />
   </main>
   <FooterComponent />
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponet.vue';
+import JumbotronComponent from './components/JumbotronComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
-import ContentComponent from './components/ContentComponent.vue';
+
 
 export default {
   components: {
     HeaderComponent,
+    JumbotronComponent,
     MainComponent,
-    FooterComponent,
-    ContentComponent,
+    FooterComponent
   }
 }
 </script>
