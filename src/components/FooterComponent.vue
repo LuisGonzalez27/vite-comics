@@ -1,15 +1,18 @@
 <template>
     <footer>
         <FooterLinks />
+        <FooterSocial />
     </footer>
 </template>
 
 <script>
 import FooterLinks from './footerSections/FooterLinks.vue';
+import FooterSocial from './footerSections/FooterSocial.vue';
 
 export default {
     components: {
         FooterLinks,
+        FooterSocial
     }
 }
 </script>

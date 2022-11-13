@@ -181,7 +181,6 @@ div.container {
 
     ul {
         list-style: none;
-        color: $graytext;
         padding: 0 1rem 1rem 0;
 
         li a {
