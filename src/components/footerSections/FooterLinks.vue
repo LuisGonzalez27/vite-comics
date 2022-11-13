@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <div class="container">
+        <div class="my-container">
             <ul>
                 <ul>
                     <li v-for="(item, index) in dcComics" :key="index">
@@ -176,12 +176,12 @@ export default {
     overflow: hidden;
 }
 
-div.container {
+div.my-container {
     display: flex;
 
     ul {
         list-style: none;
-        padding: 0 1rem 1rem 0;
+        padding: 0 1.5rem 1rem 0;
 
         li a {
             text-decoration: none;

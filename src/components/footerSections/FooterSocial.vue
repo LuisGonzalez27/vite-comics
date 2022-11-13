@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <div class="container">
+        <div class="my-container">
             <a href="#">sign&hyphen;up now&excl;</a>
             <div class="icons">
                 <a class="follow" href="">follow us</a>
@@ -37,7 +37,7 @@ export default {
     color: $white;
 }
 
-div.container {
+div.my-container {
     display: flex;
     height: 100px;
     align-items: center;
@@ -53,6 +53,7 @@ a {
 
     &:hover:not(.follow) {
         background-color: $bluedc;
+        color: $black;
     }
 }
 

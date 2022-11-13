@@ -1,5 +1,5 @@
 <template>
-    <section class="container" id="content">
+    <section class="my-container" id="content">
         <h1>&hyphen;&hyphen;&gt;Content goes here&lt;&hyphen;&hyphen;</h1>
     </section>
 </template>

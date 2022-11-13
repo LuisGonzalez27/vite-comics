@@ -1,5 +1,5 @@
 <template>
-    <header class="container">
+    <header class="my-container">
         <a href="#">
             <img src="../assets/img/dc-logo.png" alt="DC Logo">
         </a>
@@ -89,7 +89,7 @@ header {
 
     ul {
         list-style: none;
-        margin: 2.5rem 1rem 4rem;
+        margin: 2rem 0rem;
         @include dflex;
 
         li a {
