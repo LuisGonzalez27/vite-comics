@@ -87,23 +87,29 @@ header {
     justify-content: space-between;
     align-items: center;
 
+    nav {
+        height: 120px;
+    }
+
     ul {
         list-style: none;
-        margin: 2rem 0rem;
+        height: 120px;
         @include dflex;
 
         li a {
             display: inline-block;
-            padding: 1rem;
+            padding: 0 1rem;
             text-decoration: none;
             font-weight: 600;
             color: $graytext;
             text-transform: uppercase;
+            line-height: 110px;
 
             &.active,
             &:hover {
                 color: $bluedc;
                 border-bottom: 5px solid $bluedc;
+                border-top: 5px solid $white;
             }
         }
     }
